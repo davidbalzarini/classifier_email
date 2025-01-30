@@ -6,33 +6,6 @@ from datetime import datetime, timedelta
 from dotenv import load_dotenv
 from .email_processor import EmailProcessor
 
-
-def read_emails(emails):
-           
-        processed_emails = []
-        for email in emails:
-            subject = email.get["subject", ""]
-            body = email.get("body", "")
-                
-            processed_emails.append({
-                "subject": subject,
-                "body": body
-            })
-          
-            
-            # Extrair o corpo do email
-            body = get_email_body(msg)
-            
-            emails.append({
-                "subject": subject,
-                "body": body
-            })
-
-        processor = EmailProcessor()
-        processor.process_new_emails(processed_emails)
-    
-        return processed_emails
-
 def get_email_body(msg):
     """
     Extrai o corpo do email, lidando com diferentes formatos (plain text, HTML)

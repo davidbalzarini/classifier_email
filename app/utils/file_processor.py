@@ -1,12 +1,12 @@
-import PyPDF2
+import fitz
 from fastapi import UploadFile
 
 def extract_emails_from_pdf(file: UploadFile):
-    reader = PyPDF2.PdfFileReader(file.file)
     emails = []
-    for page_num in range(reader.numPages):
-        page = reader.getPage(page_num)
-        text = page.extract_text()
+    pdf_document = fitz.open(stream=file.file.read(), filetype="pdf")
+    for page_num in range(len(pdf_document)):
+        page = pdf_document.load_page(page_num)
+        text = page.get_text()
         emails.extend(parse_emails_from_text(text))
     return emails
 

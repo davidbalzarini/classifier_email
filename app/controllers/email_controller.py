@@ -3,39 +3,18 @@ from ..services.classifier import classify_email
 from ..services.email_processor import EmailProcessor
 from ..utils.file_processor import extract_emails_from_pdf, extract_emails_from_txt
 from ..models.email_model import EmailCredentials
-from ..services.email_service import read_emails_with_credentials, read_emails
+from ..services.email_service import read_emails_with_credentials
 
 router = APIRouter()
-
-# @router.on_event("startup")
-# async def startup_event():
-#     processor = EmailProcessor()
-#     return processor.get_status()
 
 @router.get("/")
 async def root():
     return {"message": "Bem vindo ao classificador de emails!"}
 
-# @router.get("/status")
-# async def get_status():
-#     processor = EmailProcessor()
-#     return processor.get_status()
-
-# @router.get("/emails-processados")
-# async def get_processed_emails():
-#     processor = EmailProcessor()
-#     return {"emails": list(processor.processed_emails)}
-
 @router.post("/classify", tags=["Email"], summary="This route allows the user to manually compose an email and return its importance rating")
 async def classify(email: str):
     classification = classify_email(email)
     return {"classification": classification}
-
-# @router.get("/read-emails")
-# async def get_emails():
-#     emails = read_emails(10, 4)
-#     print(len(emails))
-#     return {"emails": emails}
 
 @router.post("/credentials", tags=["Email"], summary="Get emails with credentials", description="""Fetch emails from the inbox using the credentials provided.\n\n
 ATTENTION: THIS FEATURE ONLY WORKS WITH GOOGLE EMAIL\n\n
