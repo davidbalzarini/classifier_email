@@ -13,8 +13,8 @@ Esta API permite aos usuários classificar emails e gerenciar o processamento de
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/seuusuario/classificador_de_emails.git
-    cd classificador_de_emails
+    git clone https://github.com/davidbalzarini/classifier_email.git
+    cd classifier_email
     ```
 
 2. Crie um ambiente virtual e ative-o:
