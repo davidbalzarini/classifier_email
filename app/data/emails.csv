@@ -1,0 +1,170 @@
+text,label
+"Urgente: Reunião de emergência às 15h",1  
+"Promoção: Desconto de 50% em eletrônicos",0  
+"Lembrete: Pagamento da fatura vence amanhã",1  
+"Convite: Evento de networking na próxima semana",0  
+"Importante: Atualização do sistema de RH",1  
+"Oferta: Frete grátis em compras acima de R$300",0  
+"Aviso: Manutenção programada para o servidor",1  
+"Newsletter: Novidades da semana em tecnologia",0  
+"Reunião: Discussão do novo projeto",1  
+"Desconto: Black Friday com até 70% off",0  
+"Lembrete: Entrega agendada para hoje à tarde",1  
+"Convite: Webinar sobre marketing digital",0  
+"Importante: Mudanças no cronograma de entregas",1  
+"Promoção: Compre um, leve outro grátis",0  
+"Aviso: Interrupção temporária do serviço de água",1  
+"Notificação: Seu pedido foi despachado",0  
+"Urgente: Feedback necessário para o relatório",1  
+"Convite: Festa de aniversário da empresa",0  
+"Lembrete: Reunião de equipe às 9h",1  
+"Oferta: Desconto de 30% em móveis",0  
+"Importante: Atualização das políticas de segurança",1  
+"Promoção: Cupom de desconto para clientes fiéis",0  
+"Aviso: Atualização do aplicativo disponível",1  
+"Newsletter: Dicas de organização para o trabalho",0  
+"Reunião: Apresentação dos resultados mensais",1  
+"Desconto: Final de semana com preços especiais",0  
+"Lembrete: Renovação do contrato de serviço",1  
+"Convite: Workshop de finanças pessoais",0  
+"Importante: Novas diretrizes de trabalho remoto",1  
+"Oferta: Frete grátis em compras acima de R$250",0  
+"Aviso: Problemas técnicos no sistema de pagamento",1  
+"Promoção: Liquidação de estoque com até 80% off",0  
+"Notificação: Seu pedido está a caminho",0  
+"Urgente: Necessário aprovação até o final do dia",1  
+"Convite: Happy hour virtual da equipe",0  
+"Lembrete: Pagamento da mensalidade em atraso",1  
+"Oferta: Desconto de 20% em produtos de beleza",0  
+"Importante: Treinamento obrigatório para todos",1  
+"Promoção: Compre agora e pague depois",0  
+"Aviso: Atualização dos termos de serviço",1  
+"Newsletter: Novidades do mês de novembro",0  
+"Reunião: Planejamento estratégico para o próximo trimestre",1  
+"Desconto: Dia dos namorados com preços especiais",0  
+"Lembrete: Reunião de avaliação de desempenho",1  
+"Convite: Palestra sobre saúde mental",0  
+"Importante: Mudanças no plano de saúde",1  
+"Oferta: Desconto de 15% em serviços de consultoria",0  
+"Aviso: Interrupção temporária do serviço de internet",1  
+"Promoção: Compre dois, pague um",0  
+"Notificação: Seu cadastro foi aprovado",0  
+"Urgente: Revisão do projeto necessária até amanhã",1  
+"Convite: Café da manhã de integração",0  
+"Lembrete: Entrega agendada para amanhã",1  
+"Oferta: Desconto de 25% em produtos de limpeza",0  
+"Importante: Atualização do sistema de segurança",1  
+"Promoção: Cupom de desconto para primeira compra",0  
+"Aviso: Atualização do aplicativo obrigatória",1  
+"Newsletter: Novidades da semana",0  
+"Reunião: Apresentação do novo CEO",1  
+"Desconto: Promoção de aniversário da loja",0  
+"Lembrete: Renovação do contrato de assinatura",1  
+"Convite: Workshop de liderança e gestão",0  
+"Importante: Novas políticas de trabalho híbrido",1  
+"Oferta: Frete grátis em compras acima de R$150",0  
+"Aviso: Problemas técnicos no sistema de login",1  
+"Promoção: Liquidação de verão com até 60% off",0  
+"Notificação: Seu pedido foi entregue",0  
+"Urgente: Feedback necessário para o projeto",1  
+"Convite: Happy hour presencial da equipe",0  
+"Lembrete: Pagamento da fatura em atraso",1  
+"Oferta: Desconto de 10% em serviços de manutenção",0  
+"Importante: Treinamento de segurança obrigatório",1  
+"Promoção: Compre agora e ganhe brindes",0  
+"Aviso: Atualização dos termos de privacidade",1  
+"Newsletter: Novidades do trimestre",0  
+"Reunião: Revisão das metas do ano",1  
+"Desconto: Promoção de volta às aulas",0  
+"Lembrete: Reunião de feedback com a equipe",1  
+"Convite: Palestra sobre inovação e tecnologia",0  
+"Importante: Mudanças no plano de carreira",1  
+"Oferta: Desconto de 5% em serviços de consultoria",0  
+"Aviso: Interrupção programada do serviço de água",1  
+"Promoção: Compre três, pague dois",0  
+"Notificação: Seu cadastro foi atualizado com sucesso",0  
+"Urgente: Revisão do relatório necessária até sexta",1  
+"Convite: Almoço de confraternização",0  
+"Lembrete: Entrega agendada para a próxima semana",1  
+"Oferta: Desconto de 40% em produtos de informática",0  
+"Importante: Atualização do sistema de backup",1  
+"Promoção: Cupom de desconto para clientes VIP",0  
+"Aviso: Atualização do aplicativo recomendada",1  
+"Newsletter: Novidades do mês de outubro",0  
+"Reunião: Apresentação dos resultados do trimestre",1  
+"Desconto: Promoção de natal com preços especiais",0  
+"Lembrete: Renovação do contrato de serviço",1  
+"Convite: Workshop de inovação e criatividade",0  
+"Importante: Novas diretrizes de trabalho remoto",1  
+"Oferta: Frete grátis em compras acima de R$200",0  
+"Aviso: Problemas técnicos no sistema de pagamento",1  
+"Promoção: Liquidação de inverno com até 50% off",0  
+"Notificação: Seu pedido está em processamento",0  
+"Urgente: Feedback necessário para o projeto",1  
+"Convite: Happy hour virtual da equipe",0  
+"Lembrete: Pagamento da mensalidade em atraso",1  
+"Oferta: Desconto de 20% em produtos selecionados",0  
+"Importante: Treinamento obrigatório para todos",1  
+"Promoção: Compre agora e pague depois",0  
+"Aviso: Atualização dos termos de serviço",1  
+"Newsletter: Novidades do mês",0  
+"Reunião: Planejamento estratégico para o próximo ano",1  
+"Desconto: Dia das mães com preços especiais",0  
+"Lembrete: Reunião de avaliação de desempenho",1  
+"Convite: Palestra sobre sustentabilidade",0  
+"Importante: Mudanças no plano de saúde",1  
+"Oferta: Desconto de 15% em serviços de consultoria",0  
+"Aviso: Interrupção temporária do serviço de internet",1  
+"Promoção: Compre dois, pague um",0  
+"Notificação: Seu cadastro foi aprovado",0  
+"Urgente: Revisão do projeto necessária até amanhã",1  
+"Convite: Café da manhã de integração",0  
+"Lembrete: Entrega agendada para amanhã",1  
+"Oferta: Desconto de 25% em produtos de limpeza",0  
+"Importante: Atualização do sistema de segurança",1  
+"Promoção: Cupom de desconto para primeira compra",0  
+"Aviso: Atualização do aplicativo obrigatória",1  
+"Newsletter: Novidades da semana",0  
+"Reunião: Apresentação do novo CEO",1  
+"Desconto: Promoção de aniversário da loja",0  
+"Lembrete: Renovação do contrato de assinatura",1  
+"Convite: Workshop de liderança e gestão",0  
+"Importante: Novas políticas de trabalho híbrido",1  
+"Oferta: Frete grátis em compras acima de R$150",0  
+"Aviso: Problemas técnicos no sistema de login",1  
+"Promoção: Liquidação de verão com até 60% off",0  
+"Notificação: Seu pedido foi entregue",0  
+"Urgente: Feedback necessário para o projeto",1  
+"Convite: Happy hour presencial da equipe",0  
+"Lembrete: Pagamento da fatura em atraso",1  
+"Oferta: Desconto de 10% em serviços de manutenção",0  
+"Importante: Treinamento de segurança obrigatório",1  
+"Promoção: Compre agora e ganhe brindes",0  
+"Aviso: Atualização dos termos de privacidade",1  
+"Newsletter: Novidades do trimestre",0  
+"Reunião: Revisão das metas do ano",1  
+"Desconto: Promoção de volta às aulas",0  
+"Lembrete: Reunião de feedback com a equipe",1  
+"Convite: Palestra sobre inovação e tecnologia",0  
+"Importante: Mudanças no plano de carreira",1  
+"Oferta: Desconto de 5% em serviços de consultoria",0  
+"Aviso: Interrupção programada do serviço de água",1  
+"Promoção: Compre três, pague dois",0  
+"Notificação: Seu cadastro foi atualizado com sucesso",0  
+"Urgente: Revisão do relatório necessária até sexta",1  
+"Convite: Almoço de confraternização",0  
+"Lembrete: Entrega agendada para a próxima semana",1  
+"Oferta: Desconto de 40% em produtos de informática",0  
+"Importante: Atualização do sistema de backup",1  
+"Promoção: Cupom de desconto para clientes VIP",0  
+"Aviso: Atualização do aplicativo recomendada",1  
+"Newsletter: Novidades do mês de outubro",0  
+"Reunião: Apresentação dos resultados do trimestre",1  
+"Desconto: Promoção de natal com preços especiais",0  
+"Lembrete: Renovação do contrato de serviço",1  
+"Convite: Workshop de inovação e criatividade",0  
+"Importante: Novas diretrizes de trabalho remoto",1  
+"Oferta: Frete grátis em compras acima de R$200",0  
+"Aviso: Problemas técnicos no sistema de pagamento",1  
+"Promoção: Liquidação de inverno com até 50% off",0  
+"Notificação: Seu pedido está em processamento",0  
