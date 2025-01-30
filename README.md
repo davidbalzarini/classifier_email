@@ -13,7 +13,7 @@ Esta API permite aos usuários classificar emails e gerenciar o processamento de
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/seuusuario/classificador_de_emails.git
+    git clone [https://github.com/seuusuario/classificador_de_emails.git](https://github.com/davidbalzarini/classifier_email.git)
     cd classificador_de_emails
     ```
 
