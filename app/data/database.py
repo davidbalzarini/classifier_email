@@ -14,18 +14,19 @@ class Database:
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 subject TEXT NOT NULL,
                 classification TEXT NOT NULL,
+                response TEXT NOT NULL,
                 processed_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
         ''')
         conn.commit()
         conn.close()
     
-    def save_email(self, subject, classification):
+    def save_email(self, subject, classification, response):
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
         cursor.execute(
-            "INSERT INTO emails (subject, classification) VALUES (?, ?)",
-            (subject, classification)
+            "INSERT INTO emails (subject, classification, response) VALUES (?, ?, ?)",
+            (subject, classification, response)
         )
         conn.commit()
         conn.close()
@@ -34,7 +35,7 @@ class Database:
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
         cursor.executemany(
-            "INSERT INTO emails (subject, classification) VALUES (?, ?)",
+            "INSERT INTO emails (subject, classification, response) VALUES (?, ?, ?)",
             emails
         )
         conn.commit()

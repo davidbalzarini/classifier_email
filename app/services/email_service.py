@@ -5,6 +5,8 @@ import os
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 from .email_processor import EmailProcessor
+from .classifier import classify_email
+
 
 def get_email_body(msg):
     """
@@ -70,9 +72,14 @@ def read_emails_with_credentials(username, password, limite=50, dias=30):
             # Extrair o corpo do email
             body = get_email_body(msg)
             
+            classification = classify_email(subject)
+            
+            
             emails.append({
                 "subject": subject,
-                "body": body
+                #"body": body,
+                "classification": classification["classification"],
+                "response": classification["response"]
             })
 
         mail.logout()

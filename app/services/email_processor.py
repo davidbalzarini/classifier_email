@@ -16,12 +16,15 @@ class EmailProcessor:
             emails_to_save = []
             for email in emails:
                 email_subject = email["subject"]
+                email_formatted = email_subject + '\n' +email["body"]
                 if email_subject not in self.processed_emails:
-                    classification = classify_email(email_subject)
-                    print(f"Novo email: {email_subject}")
-                    print(f"Classificação: {classification}")
-                    emails_to_save.append((email_subject, classification))
-                    self.processed_emails.add(email_subject)
+                    classification = classify_email(email_formatted)
+                    response = classification["response"]
+                    print(f"Novo email: {email_formatted}")
+                    print(f"Classificação: {classification['classification']}")
+                    print(f"resposta: {response}")
+                    emails_to_save.append((email_formatted, classification))
+                    self.processed_emails.add(email_formatted)
                     self.total_processados += 1
             
             # Salvar emails em lote no banco de dados

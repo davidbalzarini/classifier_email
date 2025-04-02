@@ -14,7 +14,11 @@ async def root():
 @router.post("/classify", tags=["Email"], summary="This route allows the user to manually compose an email and return its importance rating")
 async def classify(email: str):
     classification = classify_email(email)
-    return {"classification": classification}
+    
+    return {
+        "classification": classification["classification"],
+        "response": classification["response"]
+        }
 
 @router.post("/credentials", tags=["Email"], summary="Get emails with credentials", description="""Fetch emails from the inbox using the credentials provided.\n\n
 ATTENTION: THIS FEATURE ONLY WORKS WITH GOOGLE EMAIL\n\n
@@ -51,13 +55,15 @@ async def get_history():
     processor = EmailProcessor()
     emails = processor.db.get_processed_emails()
     print(len(emails))
+    print(emails)
     return {
         "emails": [
             {
                 "id": email[0],
                 "subject": email[1],
                 "classification": email[2],
-                "processed_date": email[3]
+                "processed_date": email[4],
+                "response": email[3]
             }
             for email in emails
         ]
